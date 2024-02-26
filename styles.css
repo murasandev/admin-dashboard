@@ -29,6 +29,10 @@
     grid-template-rows: 100px 1fr 1fr;
 }
 
+.sidebar-header{
+    align-self: center;
+}
+
 .sidebar-container,
 .sidebar-container > div {
     border: 1px solid red;
