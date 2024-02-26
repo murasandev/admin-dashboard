@@ -44,7 +44,7 @@
     align-self: center;
 }
 
-.project {
+.project-card {
     border: 1px solid red;
 }
 
@@ -63,12 +63,20 @@
     align-self: center;
 }
 
-.announcement {
+.announcement-card,
+.trend-card {
     border: 1px solid red;
 }
 
 .trending {
     grid-area: trending;
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr);
+    grid-template-rows: 25px repeat(4, minmax(25px, 1fr));
+    grid-auto-rows: minmax(25px, 1fr);
+    gap: 20px;
+    padding: 15px;
+    align-content: space-evenly;
 }
 
 .footer {
