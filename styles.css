@@ -28,6 +28,8 @@ body {
     border-radius: 20px;
     margin-top: 20px;
     margin-right: 20px;
+    position: sticky;
+    top: 20px;
 }
 
 .searchbar-container {
@@ -48,6 +50,7 @@ body {
     margin-bottom: 20px;
     border-radius: 20px;
     position: fixed;
+    /* width: 291px; */
 }
 
 .sidebar-header {
@@ -58,15 +61,9 @@ body {
     margin: 15px;
 }
 
-.sidebar-container > div {
-    border: 1px solid red;
+.sidebar-container > button {
     margin: 0 20px;
     border-radius: 10px;
-}
-
-.sidebar-container > div {
-    /* background-color: #dc2626; */
-    color: #bbbab8;
 }
 
 .sidebar-container > h2 {
@@ -88,10 +85,29 @@ body {
     display: grid;
     grid-template-columns: 25px 1fr;
     align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
 }
 
-.nav-btn > div {
-    border: 1px solid blue;
+.nav-btn:focus {
+    background-color: #09b377;
+}
+
+.btn-img {
+    justify-self: center;
+}
+
+.btn-img > img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-text {
+    text-align: left;
 }
 
 .projects {
