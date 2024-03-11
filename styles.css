@@ -16,7 +16,6 @@ body {
     grid-template-areas: "sidebar header header"
         "sidebar projects announcements"
         "sidebar projects trending";
-        /* "footer footer footer"; */
     gap: 25px;
 }
 
@@ -213,7 +212,3 @@ body {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
-/* .footer {
-    grid-area: footer;
-} */
